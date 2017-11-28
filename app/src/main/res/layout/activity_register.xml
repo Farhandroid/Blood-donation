@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activityBackground"
+    tools:context="com.example.hp.blooddonation.Activity.Register">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/activityBackground"
+        tools:context="com.example.hp.blooddonation.Activity.Register">
+
+        <TextView
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="120dp"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:id="@+id/adminInSignUpPageTV"
+            android:layout_width="wrap_content"
+            android:text="Donor"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:textColor="#FFFFFF"
+            android:layout_toRightOf="@id/adminInSignUpPageTV"
+            android:layout_alignBottom="@id/adminInSignUpPageTV"
+            android:textSize="27sp"
+            android:id="@+id/signUpTv"
+            android:layout_width="wrap_content"
+            android:text="Register ."
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/adminInSignUpPageTV"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/userNameLayoutInSignUpPage"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            >
+
+            <EditText
+                android:inputType="textCapWords"
+                android:id="@+id/userNameInSignUpActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_below="@id/userNameLayoutInSignUpPage"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/bloodGroupLayoutInSignUpPage"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            >
+
+            <AutoCompleteTextView
+                android:inputType="textCapWords"
+                android:id="@+id/bloodGroupInSignUP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Blood group" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_below="@id/bloodGroupLayoutInSignUpPage"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/locationLayoutInSignUpPage"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            >
+
+            <AutoCompleteTextView
+                android:inputType="textCapWords"
+                android:id="@+id/locationInSignUP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="location" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_below="@id/locationLayoutInSignUpPage"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/contactNoLayoutInSignUpPage"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            >
+
+            <EditText
+                android:inputType="textCapWords"
+                android:id="@+id/contactNoInSignUP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contact no " />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_below="@id/contactNoLayoutInSignUpPage"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/emailLayoutInSignUpPage"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            >
+
+            <EditText
+                android:inputType="textCapWords"
+                android:id="@+id/emailNoInSignUP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email " />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:orientation="vertical"
+            android:layout_below="@id/emailLayoutInSignUpPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                android:id="@+id/registerBTN"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_shape_default_rounded"
+                android:gravity="center"
+                android:onClick="createUser"
+                android:text="Register"
+                android:textColor="@android:color/white"
+                app:finalCornerAngle="50dp"
+                app:initialCornerAngle="50dp"
+                app:spinning_bar_color="@android:color/black"
+                app:spinning_bar_width="4dp" />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
+
+
+
+
+

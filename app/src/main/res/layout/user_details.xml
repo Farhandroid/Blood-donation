@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Donors Details"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="2dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/nameDD"
+        android:layout_marginTop="5dp"
+        android:text="Abdul Karim"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/bloodGroupDD"
+        android:layout_marginTop="5dp"
+        android:text="O+"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/locationDD"
+        android:layout_marginTop="5dp"
+        android:text="Aftabnagar"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/phoneDD"
+        android:layout_marginTop="5dp"
+        android:text="01785443737"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/emailDD"
+        android:layout_marginTop="5dp"
+        android:text="AbdulKarim@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+
+
+
+
+
+</LinearLayout>
